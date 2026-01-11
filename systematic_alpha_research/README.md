@@ -51,9 +51,9 @@ Data is converted from wide format to long (symbol–date) format for a proper c
 
 ### 3. Meta-Alpha Construction
 
-* **Model:** LASSO regression with time series cross-validation
+* **Model:** LassoCV regression with time series cross-validation
 * **Objective:** Predict next-day (or multi-day, like 5) returns
-* **Why LASSO:**
+* **Why LassoCV:**
 
   * Reduces overfitting
   * Improves interpretability
